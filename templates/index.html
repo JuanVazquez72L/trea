@@ -45,7 +45,10 @@
  
      
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <h1>Aqui tenemos una pequeña demostracion de las casas que ofrecemos</h1>
+
+    <h1 id="titu">Aqui tenemos una pequeña demostracion de las casas que ofrecemos</h1>
+ 
+  
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="/static/img/Casa1.jpeg" width="50%" height="50%" alt="...">
@@ -83,7 +86,7 @@
 {% else %}
     <div class="contenedor__todo">
         <div class="caja__trasera">
-            <div class="caja__trasera-login">
+            <div class="caja__trasera-register">
                 <h3 id="inicio_regis"> ¿Ya tienes una cuenta?</h3>
                 <p>Inicia sesión para entrar en la página</p>
                 
@@ -94,9 +97,9 @@
                 <p>Regístrate para que puedas iniciar sesión</p>
                 <button id="btn__registrarse"> <a href="/register">Regístrarse</a></button>
             </div>
-            <div class="">
+            <div class="caja__trasera-register">
               <h3 id="inicio_regis">¿Quieres iniciar como invitado?</h3>
-              <button id="btn__invitado"> <a href="/invitado">Invitado</a></button>
+              <button id="btn__registrarse"> <a href="/invitado">Invitado</a></button>
           </div>
         </div>   
     </div>
